@@ -5155,7 +5155,7 @@ input:checked + .slider:before {
 	content: "\f074"; }
 
 body.darktheme {
-	color: rgb(72,26,26);
+	color: rgb(187,98,98);
 	scrollbar-color: #000 #333;
 }
 body.darktheme form>label{
@@ -5670,6 +5670,7 @@ ul#audioSource3{
 #advancedOptionsGeneral,
 button.toggleSettings,
 #effectsDiv {
+	font-family: Raleway, Helvetica, Arial, sans-serif;
 	padding: 10px;
 }
 #videoname1, #passwordRoom {
