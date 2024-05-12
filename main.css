@@ -38,11 +38,11 @@
 	--a-dark-focus: #6da5dd;
 	--a-dark-active: #3a80c6;
 
-	--a-darker-link: #b9dff9;
-	--a-darker-visited: #b9dff9;
-	--a-darker-hover: #048ae8;
-	--a-darker-focus: #d9e4eb;
-	--a-darker-active: #d9e4eb;
+	--a-darker-link: rgb(187,98,98);
+	--a-darker-visited: rgb(187,98,98);
+	--a-darker-hover: rgb(232,224,214);
+	--a-darker-focus: rgb(110,45,45);
+	--a-darker-active: rgb(110,45,45);
 
 	--a-lighter-link: #9ed0e1;
 	--a-lighter-visited: #9ed0e1;
