@@ -317,10 +317,10 @@ a.soloLink:link {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	color: #b4d7f6;
+	color: rgb(189,98,98);
 }
 a.soloLink:visited{
-	color: #b4d7f6;
+	color: rgb(189,98,98);
 }
 
 /* Links */
