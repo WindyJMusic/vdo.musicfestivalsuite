@@ -427,12 +427,12 @@ button.hint {
 #popOutChat{
 	cursor:pointer;
 	text-align:right;
-	color:#B3C7F9;
+	color:rgb(189,98,98);
 	margin:5px;
 	cursor: pointer;
 	padding:3px;
 	background-color: black;
-    border-radius: 50%;
+    	border-radius: 50%;
 	border: solid #B3C7F9 1px;
 }
 
