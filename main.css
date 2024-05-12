@@ -1895,7 +1895,6 @@ input[type=range].thinSlider {
 .outMessage {
 	color: #000;
 	border-radius: 3px;
-	background-color: rgb(232,224,214);
 	padding: 5px;
 	text-align: right;
 	margin-bottom: 5px;
@@ -5214,7 +5213,7 @@ body.darktheme .infoblob{
 	color: #CCC;
 }
 body.darktheme .outMessage{
-	background-color: #7f89a7;
+	background-color: rgb(232,224,214);
 }
 body.darktheme .inMessage {
 	background-color: #b1b1b1;
