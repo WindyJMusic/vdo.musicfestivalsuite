@@ -7,7 +7,7 @@
 	--discord-grey-4: #2e3035;
 	--discord-grey-5: #313338;
 	--discord-grey-6: #383a40;
-	--discord-grey-7: #404249; /* primary */
+	--discord-grey-7: rgb(232,224,214); /* primary */
 	--discord-grey-8: #5e6064;
 
 	--discord-text: hsl( 210 calc(1 * 9.1%) 92% /1);
@@ -22,7 +22,7 @@
 	/* Lightmode white - Darker to lighter */
 	--lighttheme-1: #fff;
 	--lighttheme-2: #f3f3f3;
-	--lighttheme-3: #ddd;
+	--lighttheme-3: rgb(72,26,26);
 	--lighttheme-4: #ccc; /* primary */
 	--lighttheme-5: #bbb;
 	--lighttheme-6: #aaa;
