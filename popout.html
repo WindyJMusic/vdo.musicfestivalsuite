@@ -88,6 +88,7 @@ body{
 }
 
 .controls input {
+    font-family: Raleway, Helvetica, Arial, sans-serif;
     border-radius: 4px;
     flex: 3;
     color: var(--discord-text);
@@ -97,6 +98,7 @@ body{
 }
 
 .controls button {
+    font-family: Raleway, Helvetica, Arial, sans-serif;
     border-radius: 4px;
     flex: 1;
     color: var(--discord-text);
@@ -250,12 +252,12 @@ function EnterButtonChat(event){
 }
 
 function sendChatMessage(chatMsg = false){ // filtered + visual
-	var msg = document.getElementById('chatInput').value;
+	var msg = document.getElementById('chat').value;
 	msg = sanitize(msg);
 	if (msg==""){return;}
 	console.log(msg);
 	bc.postMessage({"msg":msg})
-	document.getElementById('chatInput').value = "";
+	document.getElementById('chat').value = "";
 	
 	messageList.push({"msg":msg, type: "sent"});
 	messageList = messageList.slice(-100);
