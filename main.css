@@ -3214,12 +3214,12 @@ video::-webkit-media-controls-panel {
 .context-menu__link {
 	display: block;
 	padding: 4px 12px;
-	color: rgb(232, 226, 216) !important;
+	color: rgb(72,26,26) !important;
 	text-decoration: none;
 }
 .context-menu__link:hover {
 	color: #fff !important;
-	background-color: rgb(232, 226, 216) !important;
+	background-color: rgb(72,26,26) !important;
 }
 .context-menu__tip {
 	margin-left: 15px;
