@@ -4062,6 +4062,7 @@ a#reshare {
 }
 
 #joinroomID {
+	font-family: Raleway, Helvetica, Arial, sans-serif;
 	border-radius: 0;
 	padding: 5px;
 }
@@ -5150,7 +5151,7 @@ input:checked + .slider:before {
 	content: "\f074"; }
 
 body.darktheme {
-	color: white;
+	color: rgb(72,26,26);
 	scrollbar-color: #000 #333;
 }
 body.darktheme form>label{
