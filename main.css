@@ -3701,6 +3701,7 @@ div#roomnotes2 {
 	white-space: nowrap;
 
 	text-transform: lowercase;
+	font-family: Raleway, Helvetica, Arial, sans-serif;
 }
 
 .controlsGrid button span {
