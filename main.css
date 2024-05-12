@@ -3990,6 +3990,9 @@ div#roomnotes2 {
 	float: left;
 	left: 0;
 }
+.pull-right, .pull-left {
+	font-family: Raleway, Helvetica, Arial, sans-serif;
+}
 .streamID {
 	text-align: right;
 	margin: 5px 5px 2px 0px;
