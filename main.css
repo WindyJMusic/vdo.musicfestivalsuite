@@ -1600,7 +1600,7 @@ body {
 	height: 100%;
 	width: 100%;
 	background-color: var(--background-color);
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Raleway, Helvetica, Arial, sans-serif;
 	border: 0;
 	margin: 0;
 	opacity: 1;
@@ -2295,7 +2295,7 @@ div#chatBody a {
 } */
 
 h2 {
-	color: white;
+	color: black;
 	-webkit-user-select: none;
 	/* Safari */
 	-moz-user-select: none;
