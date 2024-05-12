@@ -4619,6 +4619,7 @@ input:checked + .slider:before {
 .largeTextEntry {
 	width: 90%;
 	margin: 10px 5%;
+	font-family: Raleway, Helvetica, Arial, sans-serif;
 	font-size: .8em;
 	padding: 0.4em;
 	display: block;
@@ -5267,6 +5268,7 @@ button {
 	border-radius: 4px;
 
 	border: 1px solid var(--lighttheme-6);
+	font-family: Raleway, Helvetica, Arial, sans-serif;
 }
 button:hover {
 	filter: brightness(0.98);
