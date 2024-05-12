@@ -3214,12 +3214,12 @@ video::-webkit-media-controls-panel {
 .context-menu__link {
 	display: block;
 	padding: 4px 12px;
-	color: #0066aa !important;
+	color: rgb(232, 226, 216) !important;
 	text-decoration: none;
 }
 .context-menu__link:hover {
 	color: #fff !important;
-	background-color: #0066aa !important;
+	background-color: rgb(232, 226, 216) !important;
 }
 .context-menu__tip {
 	margin-left: 15px;
@@ -3654,6 +3654,7 @@ div#roomnotes2 {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 5px;
+	font-family: Raleway, Helvetica, Arial, sans-serif;
 }
 
 .controlsGrid .group {
