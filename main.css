@@ -1733,6 +1733,7 @@ div[data-action-type='toggle-group'] {
 	background-color:#AAA
 }
 select{
+	font-family: Raleway, Helvetica, Arial, sans-serif;
 	-webkit-app-region: no-drag;
 }
 
@@ -5275,6 +5276,7 @@ button i {
 }
 
 .gobutton {
+	font-family: Raleway, Helvetica, Arial, sans-serif;
 	font-size: 110%;
 	padding: 10px;
 	border: 3px solid #ddd;
