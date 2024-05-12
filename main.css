@@ -3322,6 +3322,7 @@ video::-webkit-media-controls-panel {
 	cursor: grab;
 	font-weight: bold;
 	font-size: 1em;
+	font-family: Raleway, Helvetica, Arial, sans-serif;
 	padding: 10px;
 	margin: 5px 0;
 	word-break: break-all;
