@@ -44,11 +44,11 @@
 	--a-darker-focus: rgb(110,45,45);
 	--a-darker-active: rgb(110,45,45);
 
-	--a-lighter-link: #9ed0e1;
-	--a-lighter-visited: #9ed0e1;
-	--a-lighter-hover: #8acee4;
-	--a-lighter-focus: #8acee4;
-	--a-lighter-active: #89d5ee;
+	--a-lighter-link: rgb(232,224,214);
+	--a-lighter-visited: rgb(232,224,214);
+	--a-lighter-hover: rgb(110,45,45);
+	--a-lighter-focus: rgb(187,98,98);
+	--a-lighter-active: rgb(187,98,98);
 
 	--a-link:  #144267;
 	--a-visited: #144267;
@@ -3322,7 +3322,6 @@ video::-webkit-media-controls-panel {
 	cursor: grab;
 	font-weight: bold;
 	font-size: 1em;
-	font-family: Raleway, Helvetica, Arial, sans-serif;
 	padding: 10px;
 	margin: 5px 0;
 	word-break: break-all;
