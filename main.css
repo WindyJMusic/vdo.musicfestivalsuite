@@ -2827,12 +2827,12 @@ img {
 }
 .close-btn {
 	float: right;
-	color: lightgray;
+	color: rgb(108,50,50);
 	font-size: 24px;
 	font-weight: bold;
 }
 .close-btn:hover {
-	color: darkgray;
+	color: rgb(72,26,26);
 }
 #chattoggle{
 	top: 0.5px;
