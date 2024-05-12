@@ -4066,6 +4066,8 @@ a#reshare {
 	padding: 5px;
 }
 #joinroomID+button {
+	font-family: Raleway, Helvetica, Arial, sans-serif;
+	font-weight: 600;
 	margin: 0px var(--regular-margin);
 }
 
