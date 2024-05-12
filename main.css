@@ -393,6 +393,7 @@ a {
 }
 
 input {
+	font-family: Raleway, Helvetica, Arial, sans-serif;
 	border-radius: 4px;
 	padding: 2px;
 	-webkit-app-region: no-drag;
