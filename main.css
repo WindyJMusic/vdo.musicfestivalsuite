@@ -1336,6 +1336,7 @@ button.glyphicon-button.active.focus {
 	border-radius: 4px;
 }
 button#press2talk{
+	font-family: Raleway, Helvetica, Arial, sans-serif;
 	border: 0;
 }
 #press2talk:hover {
