@@ -1518,18 +1518,18 @@
                     <button class="mainonly advanced" data-action-type="toggle-remote-display" title="Toggle the remote guest's display output" onclick="remoteDisplayMute(this, event);">
                         <i class="las la-eye-slash"></i> <span data-translate="toggle-remote-display">Blind</span>
                     </button>
-					<button data-action-type="addToScene" class="advanced" title="Add this Video to any remote '&scene=1'" data-scene="1" onclick="directEnable(this, event);">
+<!--					<button data-action-type="addToScene" class="advanced" title="Add this Video to any remote '&scene=1'" data-scene="1" onclick="directEnable(this, event);">
 						<i class="las la-plus-square"></i>
 						<span data-translate="add-to-scene">add to scene 1</span>
-					</button>
+					</button>-->
                 </div>
-				<button class="hideDropMenu advanced" onclick="toggleByDataset('1');getById('chevarrow3').classList.toggle('bottom');getById('chevarrow3').classList.toggle('right');">
+<!--				<button class="hideDropMenu advanced" onclick="toggleByDataset('1');getById('chevarrow3').classList.toggle('bottom');getById('chevarrow3').classList.toggle('right');">
 					<i id="chevarrow3" class="chevron right" aria-hidden="true"></i>
 					<span data-translate="scene-options">Scene options</span>
 				</button>
-				<div class="group hidden" data-cluster="1">
+				<div class="group hidden" data-cluster="1">-->
 					<!-- Scene Controls -->
-					<div class="row two">
+<!--					<div class="row two">
                        <button data-action-type="addToScene" class="advanced" title="Add this Video to any remote '&scene=2'" data-scene="2" onclick="directEnable(this, event);">
 							<i class="las la-plus-square"></i>
 							<span data-translate="add-to-scene2">add to scene 2</span>
@@ -1538,10 +1538,10 @@
 							<i class="las la-microphone-slash"></i>
 							<span data-translate="mute-scene">mute in scenes</span>
 						</button>
-					</div>
+					</div>-->
 
 					<!-- Row of Scenes -->
-					<div class="row six advanced sceneButtons">
+<!--					<div class="row six advanced sceneButtons">
 						<button data-action-type="addToScene" data-scene="3" title="Add to Scene 3" onclick="directEnable(this, event);">
 							<span>S3</span>
 						</button>
@@ -1565,9 +1565,9 @@
                     <button data-action-type="stats-remote" title="Request the statistics of this video in any active scene" onclick="toggleSceneStats(this);">
                         <i class="las la-info-circle"></i>
                         <span data-translate="stats-remote">Scene Stats</span>
-                    </button>
+                    </button>-->
                     <!-- Graph Section for Scenes -->
-					<div class="row two advanced">
+<!--					<div class="row two advanced">
                         <span class="graphSection hidden" data-action-type="stats-graphs-bitrate" >
                             <span class="hidden" data-message="true" data-no-scenes="true">No scenes active</span>
                         </span>
@@ -1587,11 +1587,11 @@
 					<i id="chevarrow4" class="chevron right" aria-hidden="true"  ></i>
 					<span data-translate="additional-controls">Additional Controls</span>
 				</button>
-				<div class="group hidden" data-cluster="2">
+				<div class="group hidden" data-cluster="2">-->
 					<!-- General Controls -->
-					<div class="row two">
+<!--					<div class="row two">-->
 						<!-- Mix Order Control -->
-						<span class="row three advanced" data-action-type="ordering">
+<!--						<span class="row three advanced" data-action-type="ordering">
 							<button class="center" data-action-type="order-down" title="Shift this Video Down in Order" onclick="changeOrder(-1,this.dataset.UUID);">
 								<span data-translate="order-down"><i class="las la-minus"></i></span>
 							</button>
@@ -1643,10 +1643,10 @@
 							🔃
 							<span data-translate="rotate-guest"> Rotate Video</span>
 						</button>
-					</div>
+					</div>-->
 					
 					<!-- Row of Channels -->
-					<div class="row six advanced">
+<!--					<div class="row six advanced">
 						<button class="btn-HL-blue" data-action-type="add-channel" title="Set to Audio Channel 1" onclick="changeChannelOffset(this.dataset.UUID, 0);">
 							<span>C1</span>
 						</button>
@@ -1665,10 +1665,10 @@
 						<button class="btn-HL-blue" data-action-type="add-channel" title="Set to Audio Channel 6" onclick="changeChannelOffset(this.dataset.UUID, 5);">
 							<span>C6</span>
 						</button>
-					</div>
+					</div>-->
 					
 					<!-- Row of Groups -->
-					<div class="row six advanced">
+<!--					<div class="row six advanced">
 						<button class="btn-HL-green" data-action-type="toggle-group" data-group="1" title="Add/remove from group 1" onclick="changeGroup(this);">
 							<span>G1</span>
 						</button>
@@ -1689,7 +1689,7 @@
 						</button>
 					</div>
 				</div>
-				<div class="row two"> 
+				<div class="row two"> -->
                     <!-- Further Audio/Video Settings -->
                     <div class="row two settingsWrapper" data-cluster="3">
                         <button data-action-type="advanced-audio-settings" data-active="false" title="Remote Audio Settings" onclick="requestAudioSettings(this);">
