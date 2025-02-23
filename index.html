@@ -1485,21 +1485,17 @@
 						</button>
 					</span>	
 
-					<button data-action-type="forward" class="mainonly advanced" title="Move the user to another room, controlled by another director" onclick="directMigrate(this, event);">
+<!--					<button data-action-type="forward" class="mainonly advanced" title="Move the user to another room, controlled by another director" onclick="directMigrate(this, event);">
 						<i class="las la-paper-plane"></i>
 						<span data-translate="forward-to-room">Transfer</span>
-					</button>
-					<button data-action-type="hangup" class="mainonly"  title="Force the user to Disconnect. They can always reconnect." onclick="directHangup(this, event);">
-						<i class="las la-sign-out-alt"></i>
-						<span data-translate="disconnect-guest">Hangup</span>
-					</button>
+					</button>-->
                 </div>
                 <div class="flexBreak"></div>
 				<div class="row three"> 
-					<button data-action-type="solo-chat" class="mainonly advanced" title="Toggle solo voice chat or hold CTRL/CMD when selecting to make it two-way private." onclick="session.toggleSoloChat(this.dataset.UUID, event);">
+<!--					<button data-action-type="solo-chat" class="mainonly advanced" title="Toggle solo voice chat or hold CTRL/CMD when selecting to make it two-way private." onclick="session.toggleSoloChat(this.dataset.UUID, event);">
 						<i class="las la-microphone"></i>
 						<span data-translate="voice-chat">Solo Talk</span>
-					</button>
+					</button>-->
 					<button data-action-type="solo-video" class="advanced" title="Solo this video everywhere. (Hold CTRL/CMD to just make video larger)" onclick="requestInfocus(this, event);">
 						<i class="las la-user"></i>
 						<span data-translate="solo-video">Highlight</span>
@@ -1508,6 +1504,10 @@
                         <i class="las la-video-slash"></i>
                         <span data-translate="mute-video-guest">Video off</span>
                     </button>
+					<button data-action-type="hangup" class="advanced"  title="Force the user to Disconnect. They can always reconnect." onclick="directHangup(this, event);">
+						<i class="las la-sign-out-alt"></i>
+						<span data-translate="disconnect-guest">Hangup</span>
+					</button>
                     <button class="mainonly advanced" data-action-type="toggle-remote-speaker" title="Toggle the remote guest's speaker output" onclick="remoteSpeakerMute(this, event);">
                         <i class="las la-volume-off"></i> <span data-translate="toggle-remote-speaker">Deafen</span>
                     </button>
@@ -1688,8 +1688,8 @@
 							<span>G6</span>
 						</button>
 					</div>
-				</div>
-				<div class="row two"> -->
+				</div> -->
+				<div class="row two">
                     <!-- Further Audio/Video Settings -->
                     <div class="row two settingsWrapper" data-cluster="3">
                         <button data-action-type="advanced-audio-settings" data-active="false" title="Remote Audio Settings" onclick="requestAudioSettings(this);">
