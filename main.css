@@ -7,10 +7,10 @@
 	--discord-grey-4: #2e3035;
 	--discord-grey-5: #313338;
 	--discord-grey-6: #383a40;
-	--discord-grey-7: rgb(188,228,232); /* primary */
+	--discord-grey-7: rgb(86,121,126); /* primary */
 	--discord-grey-8: #5e6064;
 
-	--discord-text: rgb(189,98,98);
+	--discord-text: rgb(188,228,232);
 
 	--darktheme-red: rgb(161, 45, 45);
 	--darktheme-blue: rgb(33, 69, 114);
@@ -102,7 +102,7 @@
 }
 
 * {
-	padding: 0;
+	ping: 0;
 	margin: 0;
 	box-sizing: border-box;
 	border: 0;
@@ -3216,12 +3216,12 @@ video::-webkit-media-controls-panel {
 .context-menu__link {
 	display: block;
 	padding: 4px 12px;
-	color: rgb(72,26,26) !important;
+	color: rgb(16,75,82) !important;
 	text-decoration: none;
 }
 .context-menu__link:hover {
 	color: #fff !important;
-	background-color: rgb(72,26,26) !important;
+	background-color: rgb(16,75,82) !important;
 }
 .context-menu__tip {
 	margin-left: 15px;
@@ -5167,7 +5167,7 @@ body.darktheme form>label{
 	color: white;
 }
 body.darktheme .column>h2{
-	color: rgb(72,26,26);
+	color: rgb(16,75,82);
 }
 body.darktheme .directorsgrid .vidcon > .las {
 	background-color: #424242;
