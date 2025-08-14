@@ -32,23 +32,23 @@
 
 	/* Director v2 - General colors */
 	/* -- Links */
-	--a-dark-link: rgb(187,98,98);
-	--a-dark-visited: rgb(187,98,98);
-	--a-dark-hover: rgb(232,224,214);
-	--a-dark-focus: rgb(110,45,45);
-	--a-dark-active: rgb(110,45,45);
+	--a-dark-link: rgb(11,112,116);
+	--a-dark-visited: rgb(11,112,116);
+	--a-dark-hover: rgb(188,228,232);
+	--a-dark-focus: rgb(16,75,82);
+	--a-dark-active: rgb(116,75,82);
 
-	--a-darker-link: rgb(187,98,98);
-	--a-darker-visited: rgb(187,98,98);
-	--a-darker-hover: rgb(232,224,214);
-	--a-darker-focus: rgb(110,45,45);
-	--a-darker-active: rgb(110,45,45);
+	--a-darker-link: rgb(11,112,116);
+	--a-darker-visited: rgb(11,112,116);
+	--a-darker-hover: rgb(188,228,232);
+	--a-darker-focus: rgb(16,75,82);
+	--a-darker-active: rgb(16,75,82);
 
-	--a-lighter-link: rgb(232,224,214);
-	--a-lighter-visited: rgb(232,224,214);
-	--a-lighter-hover: rgb(110,45,45);
-	--a-lighter-focus: rgb(187,98,98);
-	--a-lighter-active: rgb(187,98,98);
+	--a-lighter-link: rgb(188,228,232);
+	--a-lighter-visited: rgb(188,228,232);
+	--a-lighter-hover: rgb(16,75,82);
+	--a-lighter-focus: rgb(11,112,116);
+	--a-lighter-active: rgb(11,112,116);
 
 	--a-link:  #144267;
 	--a-visited: #144267;
@@ -2384,7 +2384,7 @@ label {
 	background-color: #5555;
 	border-radius: 30px;
 	cursor:pointer;
-	color: rgb(187,98,98);
+	color: rgb(11,112,116);
 	padding: 3px;
 	width: 100px;
 }
@@ -2830,12 +2830,12 @@ img {
 }
 .close-btn {
 	float: right;
-	color: rgb(108,50,50);
+	color: rgb(183,192,201);
 	font-size: 24px;
 	font-weight: bold;
 }
 .close-btn:hover {
-	color: rgb(72,26,26);
+	color: rgb(86,121,126);
 }
 #chattoggle{
 	top: 0.5px;
@@ -5160,7 +5160,7 @@ input:checked + .slider:before {
 	content: "\f074"; }
 
 body.darktheme {
-	color: rgb(187,98,98);
+	color: rgb(188,228,232);
 	scrollbar-color: #000 #333;
 }
 body.darktheme form>label{
@@ -5213,7 +5213,7 @@ body.darktheme .infoblob{
 	color: #CCC;
 }
 body.darktheme .outMessage{
-	background-color: rgb(232,224,214);
+	background-color: rgb(188,228,232);
 }
 body.darktheme .inMessage {
 	background-color: #b1b1b1;
