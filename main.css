@@ -5279,7 +5279,7 @@ button i {
 .darktheme :not(.promptModalInner) > button {
 	background-color: var(--discord-grey-5);
 	border: 1px solid var(--discord-grey-8);
-	color: var(--discord-text);
+	color: rgb(188,228,232);
 }
 .darktheme :not(.promptModalInner) > button:hover {
 	filter: brightness(1.05);
@@ -5698,7 +5698,6 @@ button.toggleSettings,
 .roomnotes {
 	font-family: Raleway, Helvetica, Arial, sans-serif;
 	margin-top: 10px;
-	color: rgb(188,228,232);
 }
 .randomRoomName{
 	position: absolute;
