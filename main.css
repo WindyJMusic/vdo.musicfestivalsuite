@@ -4561,7 +4561,7 @@ input:checked + .slider:before {
 
 .darktheme #promptModal, .darktheme .customModelPopup, .darktheme .promptModal {
 	background-color: var(--discord-grey-5);
-	color: var(--discord-text);
+	color: rgb(100,207,219;
 }
 
 #promptModal, .customModelPopup, .promptModal {
