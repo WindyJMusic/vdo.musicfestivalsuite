@@ -125,6 +125,7 @@ table {
 	display: inline-block;
 	padding:10px;
 	margin:10px;
+	color: var(--discord_text);
 }
 
 .promptModalLabel{
@@ -5296,7 +5297,7 @@ button i {
 }
 .darktheme .gobutton {
 	background-color: #6B8698;
-	color: #000;
+	color: rgb(188,228,232);
 	border: 3px solid #9B9B9B;
 }
 
