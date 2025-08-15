@@ -5297,7 +5297,7 @@ button i {
 }
 .darktheme .gobutton {
 	background-color: #6B8698;
-	color: rgb(188,228,232);
+	color: #000;
 	border: 3px solid #9B9B9B;
 }
 
@@ -5698,6 +5698,7 @@ button.toggleSettings,
 .roomnotes {
 	font-family: Raleway, Helvetica, Arial, sans-serif;
 	margin-top: 10px;
+	color: rgb(188,228,232);
 }
 .randomRoomName{
 	position: absolute;
